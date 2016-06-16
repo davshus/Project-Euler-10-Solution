@@ -22,7 +22,8 @@ int main() {
 			xProgress = progress;
 		}
 	}
-	cout << endl << "The sum of every prime below 2,000,000 is: " << total << endl;
+	system("cls");
+	cout << "100%" << endl << "The sum of every prime below 2,000,000 is: " << total << endl;
 	system("pause");
 	return 0;
 }
